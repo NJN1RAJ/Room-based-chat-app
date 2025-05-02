@@ -6,7 +6,7 @@ import { useWebSocket } from "../hooks/useWebSocket";
 export default function ChatPage() {
   const params = useParams();
 
-  const [messages, setMessages] = useState(["Greetings from the server"]);
+  const [messages, setMessages] = useState(["Greetings from Niraj"]);
   const wsRef = useWebSocket("ws://localhost:8080");
   const inputRef = useRef(null);
 
